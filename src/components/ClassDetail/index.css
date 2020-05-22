@@ -1,0 +1,48 @@
+.class-detail{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30vw;
+    height: 80vh;
+    background: rgb(248, 228, 228);
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.class-detail__bar{
+  display: flex;
+  background: #cae1ff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 18px;
+  height: 40px;
+}
+
+.class-detail__bar i:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.class-detail__main{
+    padding: 32px;
+}
+
+.class-detail__main__students-list{
+  display: flex;
+  flex-direction: column;
+  margin: 32px 0px;
+}
+
+.class-detail__main__students-list__student{
+  display: flex;
+  justify-content: space-between;
+}
+.class-detail__main__students-list__student i{
+  margin-left: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.class-detail__main__students-list__student i:hover{
+  color: blue;
+}
+

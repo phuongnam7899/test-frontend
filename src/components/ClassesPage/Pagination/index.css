@@ -1,0 +1,30 @@
+.classes-page__pagination {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.classes-page__pagination__page-choose{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.classes-page__pagination__page-choose__label{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(188, 211, 203);
+    border-radius: 100%;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+
+.classes-page__pagination__page-choose__label--active{
+    background-color: rgb(114, 155, 141);
+}
+
+.classes-page__pagination__page-choose__icon{
+    cursor: pointer;
+}
